@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>google_form_liff 7</title>
+    <title>google_form_liff 8</title>
   </head>
    
   <body>
@@ -12,7 +12,7 @@
       async function getUserProfile() {
         const profile = await liff.getProfile();
         window.location.replace(
-          `https://docs.google.com/forms/d/e/1FAIpQLSd-B1Tlh0wuubSCr-eL2KlEj4agboLAtG54Nc3LDb0HWDZMNw/viewform?usp=pp_url&entry.347504152=${profile.userId}&entry.913178815=${profile.displayName}&entry.1085078049=${profile.statusMessage}&entry.1108373136=${profile.pictureUrl}`
+          `https://docs.google.com/forms/d/e/1FAIpQLSd-B1Tlh0wuubSCr-eL2KlEj4agboLAtG54Nc3LDb0HWDZMNw/viewform?usp=pp_url&entry.347504152=${profile.userId}&entry.913178815=${profile.displayName}&entry.1085078049=${profile.statusMessage}&entry.1108373136=${profile.pictureUrl}&entry.1856840081=${profile.email}`
         );
       }
 
